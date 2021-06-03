@@ -7,10 +7,10 @@ def DDA(fig, lon):
     tortuga.color('yellow')
     longitu=lon
     nLado=fig
-    X1=5
-    Y1=4
-    X2=6
-    Y2=5
+    X1=6
+    Y1=6
+    X2=7
+    Y2=7
     dx = abs(X2 - X1)
     dy = abs(Y2 - Y1)
     steps = 0
@@ -52,10 +52,10 @@ def bres(fig, lon):
     longitu=lon
     nLado=fig
 
-    X1=5
-    Y1=4
+    X1=6
+    Y1=6
     X2=7
-    Y2=8
+    Y2=7
    
     dx = abs(X2 - X1)
     dy = abs(Y2 - Y1)
